@@ -35,7 +35,6 @@ function App() {
 
   const [images, setImages] = useState<Photos[]>([]);
   const [allData, setAllData] = useState<Photos[]>([]);
-  const [error, setError] = useState<string>("");
 
   const filterPhotos = () => {
     return allData
